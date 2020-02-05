@@ -3,7 +3,8 @@ const generateMock = count => {
   for (let i = 0; i < count; i++) {
     records.push({
       label: new Date().toISOString(),
-      value: +new Date()
+      value: +new Date(),
+      id: i
     });
   }
   return records;

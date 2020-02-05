@@ -1,4 +1,10 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  max-height: 300px;
+  overflow: hidden;
+}
+.style-container {
+  overflow: auto;
+  height: 100px;
 }
